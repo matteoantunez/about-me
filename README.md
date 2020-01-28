@@ -2,8 +2,8 @@
 ## Repository Links
 
 ### Bulleted Linked List
-* Source Repository: 
-* Hosted Page
+* Source Repository: https://github.com/matteoantunez/about-me
+* Hosted Pages: https://matteoantunez.github.io/about-me/
 
 ## About
 "Description of what Repo will be used for"
