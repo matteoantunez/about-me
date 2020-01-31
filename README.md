@@ -15,9 +15,12 @@ Although you can directly develope from the cloud, there are various tools that 
   * Markdown Preview Enhancer can be accessed by downloading it directly in Visual Studio Code in the Extensions tab. The extension should be by a developer named Yiyi Wang.
 
 # Recommended Resources
-Within these two systems, you must know how to use Markdown GitHub Pages. Besides Markdown, people should know other programming languages to implement them into pages. Common languages used are: Python, Javascrpt, HTML/CSS, and many more. Below is a list of documentation for commonly used languages on GitHub Pages.
+Within these two systems, you must know how to use Markdown GitHub Pages. Besides Markdown, people should know other programming languages to implement them into pages. Common languages used are: Python, JavaScrpt, HTML/CSS, and many more. Below is a list of documentation for commonly used languages on GitHub Pages.
 
-And ![links]("facebook.com")
+* Python [Documentation](https://docs.python.org/3/library/): https://docs.python.org/3/library/
+* JavaScript [Documentation](https://devdocs.io/javascript/): https://devdocs.io/javascript/
+* HTML [Documentation](https://devdocs.io/html/): https://devdocs.io/html/
+* CSS [Documentation](https://devdocs.io/css/): https://devdocs.io/css/
 
 ## Contributors
 **Name:** Matteo Antunez
