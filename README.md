@@ -10,8 +10,8 @@ For this sepecific Repo, the main use is to examine and use the differen types o
 ## Recommended Tools
 Although you can directly develope from the cloud, there are various tools that people can use to work with GitHub pages locally, such as **GitHub Desktop** and **Visual Code Studio**. If someone is using Visual Studio Code as an IDE, I highly recommend downloading Markdown Preview Enhancer.
 
-* ![Github Desktop]("https://desktop.github.com/"): https://desktop.github.com/
-* ![Visual Code Studio]("https://code.visualstudio.com/"): https://code.visualstudio.com/
+* [Github Desktop](https://desktop.github.com/): https://desktop.github.com/
+* [Visual Code Studio](https://code.visualstudio.com/): https://code.visualstudio.com/
   * Markdown Preview Enhancer can be accessed by downloading it directly in Visual Studio Code in the Extensions tab. The extension should be by a developer named Yiyi Wang.
 
 # Recommended Resources
