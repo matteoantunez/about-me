@@ -19,17 +19,26 @@ h2 {
     text-align: center; 
 }
 
-p, form, aside {
+p, form, aside, .back {
     margin: 10px 5px 5px 10px;
     background-color: #f0f0f0;
     border-radius: 3px;
     padding: 5px 5px 5px 5px;
 }
 
+#cert1, #cert2, #cert3, #cert4, #cert5, #cert6, #cert7 {
+    width: 90px;
+    height: 60px;
+}
+
+aside{
+    float: right;
+}
+
 nav {
     margin: 1px 20px 25px 20px;
     text-align: center;
-    background-color: goldenrod;
+    background-color: rebeccapurple;
     border-radius: 5px;
     padding: 5px 5px 5px 5px;
     box-shadow: 0px 5px 5px grey;
