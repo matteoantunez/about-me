@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- This page uses open-source Bootstrap front-end development (specific implementation may not be included in this page) -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+
+        <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/sheet.css">
+    
+    <title>
+
+    </title>
+
+</head>
+
+<body background="Rently.JPG" style="width:auto; height:auto;">
+    <!-- Background and Profile Picture are credited to Matteo Antunez -->
+    <header>
+        <h1>Matteo Antunez | Section 03 – Dr. Eloe (10:00am MWF)</h1>
+        <br />
+    </header>
+
+    <nav>
+         <a href="index.html">Homepage</a> |
+         <a href="contact.html">Contact Form</a> |
+         <a href="calculation.html">Find That ____!</a> |
+         <a href="https://www.facebook.com/matteo.antunez"><img src="Selfie.jpg" alt="Selfie Link to Facebook" style="width: 50px; height: 50p; border-radius: 50%;"></a>
+    </nav>
+
+    <main>
+
+        <article>
+ 
+            <section>
+                <h2>Calculate Your MPG</h2>
+                <p>Have you ever been in your car and wondered, "Wow, my car drinks a lot of gas"? If so, this simple Miles Per Gallon calculator is for you. By just using your previously Odometer reading, current Odometer reading, and total gas put in! (Note: Must be from a complete fill up to a new full fill up for calculations to work correctly. Please see your provide for more details.)  </p> 
+                <form onsubmit="return false" oninput="(cOdometer.value - pOdometer.value) / gasFilled.value;">
+                    Previous Odometer Reading: <br>
+                        <input type="number" name="pOdometer">
+                        <br>
+                    Current Odometer Reading: <br>
+                        <input type="number" name="cOdometer">
+                        <br>
+                    Amount of Gas Filled: <br>
+                        <input type="number" name="gasFilled">
+                        <br><br>
+                    Total MPG: <output name="mpg" for="cOdometer pOdometer gasFilled"></output>
+                </form>
+            </section>        
+
+        </article>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2020 | Antunez Coperation | </p>
+    </footer>
+
+        <!-- JQuery - Not currently Used -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/js/mdb.min.js"></script>
+
+</body>
+
+</html>
