@@ -4,6 +4,10 @@
 * Source Repository: https://github.com/matteoantunez/about-me
 * Hosted Pages: https://matteoantunez.github.io/about-me/
 
+## Updates
+**Version Update 1: AJAX and Javascript Implementation**
+Within this version update, I have updated the JavaScript file to include functions to gather and compute information in the HTML. I have also included AJAX functionality and grabbed images from an online API. Special thanks to Professor Case and his [AJAX repository](https://github.com/profcase/js-gui-ajax) for this portion.
+
 ## About
 For this sepecific Repo, the main use is to examine and use the differen types of methods and commands within Git and .md files. The main commands examined are the Push commands in Github Cloud and Github Desktop. The repository is also used to Pull files from GitHub cloud to local machines.
 
