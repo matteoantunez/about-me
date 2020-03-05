@@ -43,18 +43,26 @@
             <section>
                 <h2>Calculate Your MPG</h2>
                 <p>Have you ever been in your car and wondered, "Wow, my car drinks a lot of gas"? If so, this simple Miles Per Gallon calculator is for you. By just using your previously Odometer reading, current Odometer reading, and total gas put in! (Note: Must be from a complete fill up to a new full fill up for calculations to work correctly. Please see your provide for more details.)  </p> 
-                <form onsubmit="return false" oninput="(cOdometer.value - pOdometer.value) / gasFilled.value;">
-                    Previous Odometer Reading: <br>
-                        <input type="number" name="pOdometer">
-                        <br>
-                    Current Odometer Reading: <br>
-                        <input type="number" name="cOdometer">
-                        <br>
-                    Amount of Gas Filled: <br>
-                        <input type="number" name="gasFilled">
-                        <br><br>
-                    Total MPG: <output name="mpg" for="cOdometer pOdometer gasFilled"></output>
-                </form>
+                    <div id = 'dataCollection'>
+                        <fieldset>
+                            Previous Odometer Reading: <br>
+                                <input type="text" id="pOdometer">
+                                <br>
+                        </fieldset>
+                        <fieldset>
+                            Current Odometer Reading: <br>
+                                <input type="text" id="cOdometer">
+                                <br>
+                        </fieldset>
+                        <fieldset>
+                            Amount of Gas Filled: <br>
+                                <input type="text" id="gasFilled">
+                                <br><br>
+                                <button type="button" id="calc" >Calculate MPG</button>
+                                <br><br>
+                            Total MPG: <p id = 'result'></p>
+                        </fieldset>
+                    </div>
             </section>        
 
         </article>
@@ -74,6 +82,7 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/js/mdb.min.js"></script>
 
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>

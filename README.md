@@ -8,7 +8,7 @@
 For this sepecific Repo, the main use is to examine and use the differen types of methods and commands within Git and .md files. The main commands examined are the Push commands in Github Cloud and Github Desktop. The repository is also used to Pull files from GitHub cloud to local machines.
 
 ## Recommended Tools
-Although you can directly develope from the cloud, there are various tools that people can use to work with GitHub pages locally, such as **GitHub Desktop** and **Visual Code Studio**. If someone is using Visual Studio Code as an IDE, I highly recommend downloading Markdown Preview Enhancer.
+Although you can directly develop from the cloud, there are various tools that people can use to work with GitHub pages locally, such as **GitHub Desktop** and **Visual Code Studio**. If someone is using Visual Studio Code as an IDE, I highly recommend downloading Markdown Preview Enhancer.
 
 * [Github Desktop](https://desktop.github.com/): https://desktop.github.com/
 * [Visual Code Studio](https://code.visualstudio.com/): https://code.visualstudio.com/
@@ -28,7 +28,7 @@ Within these two systems, you must know how to use Markdown GitHub Pages. Beside
 **Degree Program:** Data Science: Computer Science
 
 **"Favorite"** Photo
-![Dogeee](IMG_4352.jpg)
+![Dogeee](imgs/IMG_4352.jpg)
 
 Photo Credit: Matteo Antunez
 Photo [link](https://drive.google.com/open?id=1wp1p5SREcU_tVaUyeSCOQ40KRiAwPnlb): https://drive.google.com/open?id=1wp1p5SREcU_tVaUyeSCOQ40KRiAwPnlb
