@@ -1,3 +1,5 @@
+const picURI = 'https://dog.ceo/api/breeds/image/random'
+
 window.addEventListener('load', (event) =>{
     if (localStorage.getItem('pOdometer')){
         document.querySelector('#pOdometer').value = localStorage.getItem('pOdometer')
@@ -23,3 +25,22 @@ document.querySelector('#calc').addEventListener('click', () => {
     localStorage.setItem('cOdometer', cur)
     localStorage.setItem('gasFilled', tanks)
 })
+
+const grabPic = async() => {
+    try {
+        const reponse = await fetch(picURI)
+        const obj = await reponse.json()
+        console.log(`FETCHED. Response JSON ${obj}`)
+        const pic = obj.message
+        return pic
+    } catch (error) {console.error(error)}
+}
+
+const updateWithPic = async (event) => {
+    try {
+        document.getElementById('newPic').src = ''
+        const pic = await grabPic()
+        console.log(pic)
+        document.getElementById('newPic').src = pic
+    } catch (error) { console.error(error)}
+}
